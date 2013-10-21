@@ -23,10 +23,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.catalina.realm.GenericPrincipal;
 import org.apache.catalina.realm.RealmBase;
-
 import com.blogspot.ryanfx.dao.UserDAO;
-
-import auth.GoogleUtil;
 
 public class GoogleRealm extends RealmBase{
 
